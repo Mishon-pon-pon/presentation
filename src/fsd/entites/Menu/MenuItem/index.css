@@ -1,0 +1,12 @@
+.menu_item {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.menu_item > a {
+  color: #828282;
+}
+
+.is_active > a {
+  color: black;
+}

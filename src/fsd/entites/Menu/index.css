@@ -1,0 +1,9 @@
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.menu {
+  display: flex;
+  gap: 155px;
+}
