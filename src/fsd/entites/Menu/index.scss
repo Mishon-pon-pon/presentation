@@ -1,0 +1,31 @@
+@import "../../shared/styles/colors.scss";
+
+.nav_menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .menu {
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+
+  .menu_divider {
+    width: 936px;
+    border-bottom: 3px solid $base_color;
+  }
+}
+
+@media (max-width: 940px) {
+  .nav_menu {
+    justify-content: end;
+    .menu {
+      flex-direction: column;
+      align-items: end;
+      row-gap: 15px;
+    }
+  }
+}

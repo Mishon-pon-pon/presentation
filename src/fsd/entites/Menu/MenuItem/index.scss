@@ -1,0 +1,31 @@
+@import "../../../shared/styles/colors.scss";
+$color: #fff;
+$transition: all 0.3s;
+.menu_item {
+  list-style-type: none;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  transition: $transition;
+  a {
+    transition: $transition;
+  }
+
+  &:hover {
+    background-color: $base_color;
+    a {
+      color: $color;
+    }
+  }
+
+  a {
+    color: $base_color;
+  }
+}
+
+.is_active {
+  background-color: $base_color;
+  a {
+    color: $color;
+  }
+}

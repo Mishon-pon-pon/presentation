@@ -1,6 +1,6 @@
 import { cn } from "fsd/shared/utils/Cn";
 import React from "react";
-import "./index.css";
+import "./index.scss";
 
 interface IProps {
   children: React.ReactNode;
@@ -8,8 +8,7 @@ interface IProps {
 }
 
 export const MenuItem = ({ children, isActive }: IProps) => {
-  console.log("isActive", isActive);
   return (
-    <li className={cn("menu_item", { ["is_active"]: isActive })}>{children}</li>
+    <li className={cn("menu_item", { is_active: !!isActive })}>{children}</li>
   );
 };

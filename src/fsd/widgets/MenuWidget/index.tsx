@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { ROUTE_CONSTS } from "fsd/app/Routers/RouteConsts";
 import { Menu } from "fsd/entites/Menu";
 import { MenuItem } from "fsd/entites/Menu/MenuItem";
 import { MenuTitle } from "fsd/entites/Menu/MenuTitle";
 import { NavigateFeature } from "fsd/features/Navigate";
-import { useLocation, useRoutes } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 const MenuConfig = [
   {
