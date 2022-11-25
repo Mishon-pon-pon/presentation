@@ -1,0 +1,26 @@
+$width: 100px;
+$font_size: 12px;
+.lang_fch {
+  position: absolute;
+  rotate: 270deg;
+  justify-content: center;
+  align-items: center;
+  font-size: $font_size;
+  width: $width;
+  right: calc(($width/2 + $font-size) * -1);
+  top: 70px;
+
+  .lang_fch__item {
+    font-weight: 700;
+    color: #828282;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+}
+
+.lang_fch__item.lang_active {
+  color: #000;
+}
